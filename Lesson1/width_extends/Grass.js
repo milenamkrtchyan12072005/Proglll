@@ -1,6 +1,3 @@
-import LiveForm from "./LiveForm";
-
-//խոտի կլասը
 class Grass extends LiveForm {
     constructor(x, y, ind) {
         super(x, y, ind);
@@ -28,8 +25,4 @@ class Grass extends LiveForm {
             }
         }
     }
-
-
-
 }
-export default Grass;

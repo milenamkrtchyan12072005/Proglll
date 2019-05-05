@@ -1,5 +1,3 @@
-import LiveForm from "./LiveForm";
-
 class Predator extends LiveForm {
     energy = 20;
     constructor(x, y, ind) {
@@ -117,5 +115,3 @@ class Predator extends LiveForm {
         }
     }
 }
-
-export default Predator;

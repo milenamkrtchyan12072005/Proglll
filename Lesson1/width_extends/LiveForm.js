@@ -1,5 +1,3 @@
-// LiveForm.js 
-
 class LiveForm {
     constructor(x, y, ind) {
         this.index = ind;
@@ -52,5 +50,3 @@ class LiveForm {
         return found;
     }
 }
-
-export default LiveForm;

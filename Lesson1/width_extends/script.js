@@ -1,8 +1,3 @@
-// import Eatgrass from "./Eatgrass";
-// import Grass from "./Grass";
-// import Predator from "./Predator";
-// import DamnDog from "./DamnDog";
-
 var side = 25;
 var xotArr = []; //խոտերի զանգված
 var eatArr = []; //խոտակերների զանգված

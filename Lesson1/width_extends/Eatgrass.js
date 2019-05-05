@@ -1,6 +1,3 @@
-import LiveForm from "./LiveForm";
-
-//խոտակերի կլասը
 class Eatgrass extends LiveForm {
     constructor(x, y, ind) {
         super(x, y, ind);
@@ -118,5 +115,3 @@ class Eatgrass extends LiveForm {
     }
 
 }
-
-export default Eatgrass

@@ -1,7 +1,4 @@
-import LiveForm from "./LiveForm";
-
-
-class DamnDog extends LiveForm {
+ class DamnDog extends LiveForm {
     energy = 20;
     constructor(x, y, ind) {
         super(x, y, ind);
@@ -171,5 +168,3 @@ class DamnDog extends LiveForm {
         }
     }
 }
-
-export default DamnDog;
