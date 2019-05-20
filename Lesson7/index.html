@@ -2,6 +2,36 @@
 
 <head>
     <meta charset="utf8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="p5.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+    <style>
+        canvas {
+            display: block;
+            margin: 0 auto;
+        }
+
+        div {
+            display: inline-block;
+        }
+
+        h1 {
+            padding: 20px;
+            text-align: center;
+        }
+
+        body {
+            font-family: 'Noto Sans', sans-serif !important;
+        }
+    </style>
+    </style>
+</head>
+<html>
+
+<head>
+    <meta charset="utf8">
     <script src="p5.js"></script>
     <script src="LiveForm.js"></script>
     <script src="Eatgrass.js"></script>
@@ -69,7 +99,7 @@
             </tr>
             <tr>
                 <th scope="row">2</th>
-                <td scope="row" style="background-color:orange;"></td>
+                <td scope="row" style="background-color:yellow;"></td>
                 <td>Դեղինը խոտակերն է, որը բազմանում է N հատ խոտ ուտելուց հետո և մահանում է N հատ չուտելուց հետո, կամ
                     երբ նրան ուտում է գիշատիչը, կամ երբ նրան այրում է կրակը:</td>
                 <td id="garssEaterCount"></td>
@@ -90,9 +120,15 @@
             </tr>
             <tr>
                 <th scope="row">4</th>
-                <td scope="row" style="background-color: blue;"></td>
-                <td>Կապույտը հրեշն է, որը բազմանում է N հատ խոտակեր և գիշատիչ ուտելուց հետո և մահանում է N հատ չուտելուց հետո, կամ
-                    երբ նրան ուտում է Կրակինը:</td>
+                <td scope="row" style="background-color: purple;"></td>
+                <td>Մանուշակագույնը Կրակինն է, որը բազմանում է N հատ գիշատիչ և հրեշ ուտելուց հետո և մահանում է N հատ չուտելուց հետո:</td>
+                <td id="garssEaterCount"></td>
+            </tr>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td scope="row" style="background-color: pink;"></td>
+                <td>Վարդագույնը կրակն է, այն կարողանում է այրել խոտին ու Կրակինին:</td>
                 <td id="garssEaterCount"></td>
             </tr>
         </body>
